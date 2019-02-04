@@ -1,5 +1,5 @@
 {
-  "name": "ts-project-references",
+  "name": "typescript-webpack-monorepo-project-references",
   "version": "0.0.1",
   "description": "trialling out project references from typescript 3 to create a fast incremental multi library build in a monorepo",
   "main": "index.js",
