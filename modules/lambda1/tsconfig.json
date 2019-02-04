@@ -9,6 +9,9 @@
             "ourproduct/*": [ "./*" ]
         }
     },
+    "references": [
+        { "path": "../library1" }
+    ],
     "include": [
         "./**/*"
     ]
