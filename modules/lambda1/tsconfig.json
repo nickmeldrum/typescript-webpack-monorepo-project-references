@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
-        "diagnostics": true,
+        "extendedDiagnostics": true,
+        "listFiles": true,
+        "listEmittedFiles": true,
+        "traceResolution": true,
         "baseUrl": "../",
         "paths": {
             "ourproduct/*": [ "./*" ]

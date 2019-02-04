@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
       "start": "./run.sh",
+      "check-compilation": "cd modules/lambda1 && tsc && cd -",
       "build": "webpack"
   },
   "author": "Nick Meldrum (nick@nickmeldrum.com)",
