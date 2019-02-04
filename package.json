@@ -1,19 +1,21 @@
 {
   "name": "ts-project-references",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "trialling out project references from typescript 3 to create a fast incremental multi library build in a monorepo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "./run.sh",
+      "build": "webpack"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Nick Meldrum (nick@nickmeldrum.com)",
+  "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
-    "ts-loader": "^5.3.3",
-    "typescript": "^3.3.1",
-    "webpack": "^4.29.0"
   },
   "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.1",
+    "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   }
 }
