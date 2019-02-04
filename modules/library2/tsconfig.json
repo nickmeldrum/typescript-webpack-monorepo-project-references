@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "diagnostics": true,
+        "composite": true,
+        "declaration": true
+    },
+    "include": [
+        "./**/*"
+    ]
+}

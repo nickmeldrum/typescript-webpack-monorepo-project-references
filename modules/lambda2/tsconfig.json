@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "diagnostics": true,
+        "baseUrl": "../",
+        "paths": {
+            "ourproduct/*": [ "./*" ]
+        }
+    },
+    "include": [
+        "./**/*"
+    ]
+}
