@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-tsc --build modules/lambda1 modules/lambda2 --verbose
+npx tsc --build modules/lambda1 modules/lambda2 --verbose
 rm -rf dist
 npx webpack
 echo running 'lambda' 1...
