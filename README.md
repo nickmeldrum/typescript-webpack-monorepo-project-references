@@ -23,6 +23,8 @@ As soon as `ts-loader` supports incremental builds we can remove the initial `ts
 
 ## Other things of note
 
- * sourcemapping should work fine as the tsconfig and the webpack modules are both dealing with sourcemaps (naturally to get sourcemapping working in stack traces on node/lambda you will need to use the `source-map-support` library)
+ * Note I am not using yarn workspaces or lerna here. This should now be a separate concern and only of use to have npm modules defined at the library level or for publishing. Our local references are all typescript refs and handled by project references in the `tsconfig.json`. So even if workspaces or lerna ARE brought in, the package dependencies should only be used for external dependencies. No bootstrapping is required.
+ 
  * we are using path aliases in both the tsconfig and the webpack config so we don't need ugly '../' in our imports. This also helps us from a 'governance' pov - i.e. we are more explicit about which libraries we are allowed to import from (based on the path aliases in the typescript config)
-
+ 
+ * sourcemapping should work fine as the tsconfig and the webpack modules are both dealing with sourcemaps (naturally to get sourcemapping working in stack traces on node/lambda you will need to use the `source-map-support` library)
