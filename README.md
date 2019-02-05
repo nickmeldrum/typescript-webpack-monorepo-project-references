@@ -17,6 +17,6 @@ As soon as `ts-loader` supports incremental builds we can remove the initial `ts
 
 ## Other things of note
 
- * sourcemapping should work fine as the tsconfig and the webpack modules are both dealing with sourcemaps
+ * sourcemapping should work fine as the tsconfig and the webpack modules are both dealing with sourcemaps (naturally to get sourcemapping working in stack traces on node/lambda you will need to use the `source-map-support` library)
  * we are using path aliases in both the tsconfig and the webpack config so we don't need ugly '../' in our imports. This also helps us from a 'governance' pov - i.e. we are more explicit about which libraries we are allowed to import from (based on the path aliases in the typescript config)
 
