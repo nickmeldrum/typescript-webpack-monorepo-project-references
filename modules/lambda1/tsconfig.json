@@ -1,16 +1,13 @@
 {
     "compilerOptions": {
-        "extendedDiagnostics": true,
-        "listFiles": true,
-        "listEmittedFiles": true,
-        "traceResolution": true,
         "baseUrl": "../",
         "paths": {
             "ourproduct/*": [ "./*" ]
         }
     },
     "references": [
-        { "path": "../library1" }
+        { "path": "../library1" },
+        { "path": "../library2" }
     ],
     "include": [
         "./**/*"
