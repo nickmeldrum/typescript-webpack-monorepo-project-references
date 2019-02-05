@@ -6,6 +6,10 @@
             "ourproduct/*": [ "./*" ]
         }
     },
+    "references": [
+        { "path": "../library1" },
+        { "path": "../library2" }
+    ],
     "include": [
         "./**/*"
     ]

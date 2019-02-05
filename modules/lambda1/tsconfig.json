@@ -7,8 +7,7 @@
         }
     },
     "references": [
-        { "path": "../library1" },
-        { "path": "../library2" }
+        { "path": "../library1" }
     ],
     "include": [
         "./**/*"
