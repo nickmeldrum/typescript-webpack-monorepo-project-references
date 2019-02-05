@@ -4,15 +4,14 @@
   "description": "trialling out project references from typescript 3 to create a fast incremental multi library build in a monorepo",
   "main": "index.js",
   "scripts": {
-      "start": "./run.sh",
-      "check-compilation": "cd modules/lambda1 && tsc && cd -",
-      "build": "webpack"
+    "start": "./run.sh",
+    "check-compilation": "cd modules/lambda1 && tsc && cd -",
+    "build": "webpack"
   },
   "author": "Nick Meldrum (nick@nickmeldrum.com)",
   "license": "UNLICENSED",
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "typescript": "^3.3.1",
     "webpack": "^4.29.0",

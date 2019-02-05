@@ -2,6 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
+    devtool: 'sourcemap',
     entry: {
         lambda1: './modules/lambda1/index.js',
         lambda2: './modules/lambda2/index.js',

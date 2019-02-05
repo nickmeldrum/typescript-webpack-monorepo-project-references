@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "diagnostics": true,
+        "sourceMap": true,
         "composite": true,
         "declaration": true
     },

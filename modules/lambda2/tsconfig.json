@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "diagnostics": true,
+        "sourceMap": true,
         "baseUrl": "../",
         "paths": {
             "ourproduct/*": [ "./*" ]
