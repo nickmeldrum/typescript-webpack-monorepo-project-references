@@ -14,6 +14,12 @@ As soon as `ts-loader` supports incremental builds we can remove the initial `ts
 
 (2) [https://github.com/Microsoft/TypeScript/pull/29161](https://github.com/Microsoft/TypeScript/pull/29161)
 
+## See it working
+
+ 1. Run `npm install` to get typescript and webpack locally.
+ 2. Run `npm start` to build then bundle, then test the 2 'lambdas'.
+ 3. The first time you will notice the output says that it's building the dependencies.
+ 4. Run `npm start` again and notice it doesn't have to rebuild the dependencies yay! ( "Project 'modules/library1/tsconfig.json' is up to date" )
 
 ## Other things of note
 
